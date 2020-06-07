@@ -23,11 +23,11 @@
 
 // // Task # 6
 
-
+// // Already using alerts in html file because this file is linked to html file
 
 // // Task # 7
 
-
+// // In html File
 
 // // Assignment # 2
 
@@ -292,7 +292,7 @@
 
 
 
-// // Assignment # 6
+// // Assignment # 6-9
 
 
 // // Task # 1
@@ -384,13 +384,197 @@
 
 // // Task # 2
 
-// var gender = "Male" || gender === "male"){
-//     alert()
+// var gender = prompt("Enter your Gender", "Gender here");
+// if (gender ==="Male" || gender === "male"){
+//     alert("Good Morning Sir");
+// }
+// else if (gender === "Female" || gender === "female"){
+//     alert("Good Morning Ma’am");
 // }
 
 
 
-// Task # 8
-// Task # 9
-// Task # 10
-// Task # 11
+// // Task # 3
+
+// var signalColor = prompt("Enter color of road traffic signal", "Signal Color");
+// if (signalColor === "Red" || signalColor === "red"){
+//     alert("Must Stop");
+// }
+// else if(signalColor === "Yellow" || signalColor === "yellow"){
+//     alert("Ready to move");
+// }
+// else if(signalColor === "Green" || signalColor === "green"){
+//     alert("Move now");
+// }
+
+// // Task # 4
+
+// var fuel = +prompt("Enter remaining fuel in car", "Fuel in litres");
+// if (fuel < 0.25){
+//     alert("Please refill the fuel in your car");
+// }
+
+// Task # 5
+
+// a
+// var a = 4; 
+// if (++a === 5){
+//     alert("given condition for variable a is true"); 
+// }   // Will be displayed
+
+// b
+// var b = 82; 
+// if (b++ === 83){
+//     alert("given condition for variable b is true"); 
+// }    // Will not be displayed
+
+// c
+
+// var c = 12; 
+// if (c++ === 13){ 
+//     alert("condition 1 is true");   // Will not be displayed
+// } 
+// if (c === 13){ 
+//     alert("condition 2 is true");   // Will be displayed
+// } 
+// if (++c < 14){ 
+//     alert("condition 3 is true");   // Will not be displayed
+// } 
+// if(c === 14){ 
+//     alert("condition 4 is true");   // Will be displayed
+// }
+
+// d
+
+// var materialCost = 20000; 
+// var laborCost = 2000; 
+// var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost){ 
+//     alert("The cost equals");   // Will be displayed
+// }
+
+// // e
+
+// if (true){ 
+//     alert("True");  //Will be displayed
+// } 
+// if (false){ 
+//     alert("False"); // Will not be displayed
+// } 
+ 
+
+// // f 
+
+// if("car" < "cat"){ 
+//     alert("car is smaller than cat");  // Will be displayed
+// }
+
+
+
+// // Task # 6
+
+// var marksObtained = +prompt("Enter marks obtained in three subjects", "Obtained Marks");
+// var totalMarks = +prompt("Enter Total Marks", "Total Marks");
+// var percentage = (marksObtained/totalMarks) * 100;
+// var grade, remarks;
+// if (percentage >=80){
+//     grade = "A1";
+//     remarks = "Excellent"
+// }
+// else if (percentage >=70){
+//     grade = "A";
+//     remarks = "Good"
+// }
+// else if (percentage >=60){
+//     grade = "B";
+//     remarks = "You need to improve"
+// }
+// else if (percentage <60){
+//     grade = "Fail";
+//     remarks = "Sorry"
+// }
+// document.write("<h1>Marks Sheet</h1>");
+// document.write("<br>Total Marks : "+totalMarks);
+// document.write("<br>Marks Obtained : "+marksObtained);
+// document.write("<br>Percentage : "+percentage+"%");
+// document.write("<br>Grade : "+grade);
+// document.write("<br>Remarks : "+remarks);
+
+
+// // Task # 7
+
+// var secretNum = 7;
+// var guess = +prompt("Guess the secret number (ranging from 1 to 10)", "Guess Number here");
+// if (guess == secretNum){
+//     alert("Bingo! Correct answer");
+// }
+// else if (guess+1 == secretNum){
+//     alert("Close enough to the correct answer");
+// }
+
+
+// // Task # 8
+
+// var num = +prompt("Enter any number", "Number here");
+// if (num%3 == 0){
+//     alert("The number is divisible by 3.");
+// }
+
+// // Task # 9
+
+// var num = +prompt("Enter any number to check even or odd", "Number here");
+// if (num%2 == 0){
+//     alert("The number is an Even Number.");
+// }
+// else {
+//     alert("The number is an Odd Number.");
+// }
+
+// // Task # 10
+
+// var temp = +prompt("Enter Temperature", "Temperature here");
+// if (temp >40){
+//     alert("It is too hot outside.");
+// }
+// else if (temp >30){
+//     alert("The Weather today is Normal.");
+// }
+// else if (temp >20){
+//     alert("Today’s Weather is cool.");
+// }
+// else if (temp >10){
+//     alert("OMG! Today’s weather is so Cool.");
+// }
+
+
+// // Task #11
+
+// var num1 = +prompt("Enter first number", "Number here");
+// var num2 = +prompt("Enter second number", "Number here");
+// var opr = prompt("Enter operator (+, -, *, /, %)", "Operator here");
+// if (opr == "+"){
+//     alert("Sum of these number is "+(num1+num2));
+// }
+// else if (opr == "-"){
+//     alert("Difference of these number is "+(num1-num2));
+// }
+// else if (opr == "*"){
+//     alert("Product of these number is "+(num1*num2));
+// }
+// else if (opr == "/"){
+//     alert("Division of these number is "+(num1/num2));
+// }
+// else if (opr == "%"){
+//     alert("Mod of these number is "+(num1%num2));
+// }
+// else{
+//     alert("You gave invalid operator");
+// }
+
+
+
+
+// // Assignment # 12-13
+
+
+// // Task # 1
