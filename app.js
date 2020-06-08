@@ -369,7 +369,7 @@
 
 
 
-// // Assignment # 9-10
+// // Assignment # 9-11
 
 
 // // Task # 1
@@ -461,7 +461,7 @@
 // if (false){ 
 //     alert("False"); // Will not be displayed
 // } 
- 
+
 
 // // f 
 
@@ -578,3 +578,265 @@
 
 
 // // Task # 1
+
+// var char = prompt("Enter any character (number, or letter)", "Character");
+// if (char.charCodeAt(0) >= 65 && char.charCodeAt(0) <= 90) {
+//     alert("The character is Uppercase letter");
+// }
+// else if (char.charCodeAt(0) >= 97 && char.charCodeAt(0) <= 122) {
+//     alert("The character is Lowercase letter");
+// }
+// else if (char.charCodeAt(0) >= 48 && char.charCodeAt(0) <= 57) {
+//     alert("The character is a Number");
+// }
+// else{
+//     alert("The character is other than letter and number");
+// }
+
+
+// // Task # 2
+
+// var int1 = +prompt("Enter any integer", "Number");
+// var int2 = +prompt("Enter any integer", "Number");
+// if (int1>int2) {
+//     alert("The larger number is "+int1);
+// }
+// else if (int2>int1) {
+//     alert("The larger number is "+int2);
+// }
+// else{
+//     alert("Both numbers are equal");
+// }
+
+// // Task # 3
+
+// var num = +prompt("Enter any Number", "Number");
+// if (num>0) {
+//     alert("The Number is Positive");
+// }
+// else if (num<0) {
+//     alert("The Number is Negative");
+// }
+// else{
+//     alert("The Number is 0");
+// }
+
+
+
+// // Task # 4
+
+// var char = prompt("Enter any Character", "Letter here");
+// if (char == 'A' || char == 'a' || char == 'E' || char == 'e' || char == 'I' || char == 'i' || char == 'O' || char == 'o' || char == 'U' || char == 'u') {
+//     alert("True");
+// }
+// else{
+//     alert("False");
+// }
+
+
+// // Task # 5
+
+// var password = "abc123";
+// var msg = "Password here";
+// var input = prompt("Enter Password", msg);
+// if (input === password) {
+//     alert("Correct! The password you entered matches the original password");
+// }
+// else if (input === "" || input === null || input === msg) {
+//     alert("Please enter your password");
+// }
+// else{
+//     alert("Incorrect password");
+// }
+
+// // Task # 6  To fix the code
+
+// var greeting; 
+// var hour = 13; 
+// if (hour < 18) { 
+//     greeting = "Good day"; 
+//     else greeting = "Good evening"; }
+
+// var greeting; 
+// var hour = 13; 
+// if (hour < 18) { 
+//     greeting = "Good day";
+// }
+// else {
+//     greeting = "Good evening"; 
+// }
+
+
+// // Task # 7
+
+// var time = +prompt("Please inter the Time in format like: 1900 = 7pm.", "Time here");
+// if (time >=0000 && time <1200) {
+//     alert("Good Morning!");
+// }
+// else if (time >=1200 && time <1700) {
+//     alert("Good Afternoon!");
+// }
+// else if (time >=1700 && time <2100) {
+//     alert("Good Evening!");
+// }
+// else if (time >=2100 && time <2359) {
+//     alert("Good Night!");
+// }
+// else{
+//     alert("Please inter correct time!");
+// }
+
+
+
+
+// // Assignment # 14-16
+
+
+// // Task # 1
+
+// var stdNames = [];
+
+
+// // Task # 2
+
+// var stdNames = new Array();
+
+
+// // Task # 3
+
+// var stringArray = ["StringOne","StringTwo","StringThree"];
+
+
+// // Task # 4
+
+// var numArray = [24, 56, 1, 70];
+
+
+// // Task # 5
+
+// var boolArray = [true, false, true, true];
+
+
+// // Task # 6
+
+// var mixArray = [56, "stringText", 5.3, true, 'C'];
+
+
+// // Task # 7
+
+// var qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+// document.write("<h2>Qualifications</h2>");
+// document.write("<ol>");
+// for (var i = 0; i < qualifications.length; i++) {
+//     document.write("<li>" + qualifications[i] + "</li>");
+// }
+// document.write("</ol>");
+
+// // Task # 8
+
+// var stdName = ["Ali", "Zaid", "Kamran"];
+// var scores = [320, 230, 480];
+// document.write("Score of "+ stdName[0]+" is "+(scores[0]/500)*100+"%");
+// document.write("<br>Score of "+ stdName[1]+" is "+(scores[1]/500)*100+"%");
+// document.write("<br>Score of "+ stdName[2]+" is "+(scores[2]/500)*100+"%");
+
+
+
+// // Task # 9
+
+// var colorNames = ["Pink", "Blue", "Yellow", "Black"];
+// document.write("Array elements are " + colorNames);
+// colorNames.unshift(prompt("Enter Color name to add to the beginning of color Names Array"));
+// document.write("<br>Updated Array elements after adding to the start are " + colorNames);
+// colorNames.push(prompt("Enter Color name to add to the end of color Names Array"));
+// document.write("<br>Updated Array elements after adding to the end are " + colorNames);
+// colorNames.unshift("Grey", "SkyBlue");
+// document.write("<br>Updated Array elements after adding two names to start are " + colorNames);
+// colorNames.shift();
+// document.write("<br>Updated Array elements after deleting first color are " + colorNames);
+// colorNames.pop();
+// document.write("<br>Updated Array elements after deleting last color are " + colorNames);
+// colorNames.splice(prompt("Enter index number to which you want to add color name"), 0, prompt("Enter name you want to add at this index"));
+// document.write("<br>Updated Array elements after adding to the index are " + colorNames);
+// colorNames.splice(prompt("Enter index number to which you want to delete color name"), prompt("Enter how many colors want to delete"));
+// document.write("<br>Updated Array elements after deleting to the index are " + colorNames);
+
+
+
+
+// // Task # 10
+
+// var stdScores = [320,230,480,120];
+// document.write("Scores of Students : "+stdScores);
+// document.write("<br>Ordered Scores of Students : "+stdScores.sort());
+
+
+// // Task # 11
+
+// var city = ["Karachi","Hyderabad","Lahore","Peshawar","Quetta"];
+// document.write("<h4>Cities List:</h4>");
+// document.write(city);
+// document.write("<br><h4>Selected Cities List:</h4>");
+// var selectedCities = city.splice(2,3);
+// document.write(selectedCities);
+
+
+
+// // Task # 12
+
+// var arr = ["This", "is", "my", "cat"];
+// document.write("Array:<br>" + arr)
+// document.write("<br>String:<br>" + arr.join(" "));
+
+
+
+// // Task # 13
+
+// var arr = new Array();
+// arr.push("Keyboard");
+// arr.push("Mouse");
+// arr.push("Printer");
+// arr.push("Monitor");
+// document.write("Devices:<br>"+arr);
+// document.write("<br>Out:<br>"+arr.shift());
+// document.write("<br>Out:<br>"+arr.shift());
+// document.write("<br>Out:<br>"+arr.shift());
+// document.write("<br>Out:<br>"+arr.shift());
+
+
+// // Task # 14
+
+// var arr = new Array();
+// arr.push("Keyboard");
+// arr.push("Mouse");
+// arr.push("Printer");
+// arr.push("Monitor");
+// document.write("Devices:<br>"+arr);
+// document.write("<br>Out:<br>"+arr.pop());
+// document.write("<br>Out:<br>"+arr.pop());
+// document.write("<br>Out:<br>"+arr.pop());
+// document.write("<br>Out:<br>"+arr.pop());
+
+
+// // Task # 15
+
+
+// var phone = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"];
+// document.write("DropDown Menu of Phone Manufacturers<br><br>")
+// document.write("<select>");
+// for (var i = 0; i < phone.length; i++) {
+//     document.write("<option>"+phone[i]+"</option>");
+// }
+// document.write("</select>");
+
+
+
+
+
+// // Assignment # 17-20
+
+
+// // Task # 1
+
+
+
